@@ -24,7 +24,6 @@ span {
 
 
 p {
-    color: #686F8E;
     font-size: 18px;
     font-weight: 500;
     display: inline-block;
@@ -533,172 +532,7 @@ h2 {
 
 
 
-/* Footer */
 
-.footer-contact {
-    display: grid;
-    background: rgb(232, 242, 254);
-    background: linear-gradient(180deg, rgba(232, 242, 254, 1) 0%, rgba(244, 249, 255, 1) 100%);
-    max-width: 1389px;
-    grid-template-columns: repeat(12, 1fr);
-    margin: 0 auto;
-    column-gap: 24px;
-    padding: 0 24px;
-    -webkit-column-gap: 24px;
-    -moz-column-gap: 24px;
-    align-items: center;
-    transform: translateX(0%) translateY(50%);
-    -webkit-transform: translateX(0%) translateY(50%);
-    padding-bottom: 24px;
-    padding-top: 24px;
-    padding-left: 66px;
-    box-shadow: -1px 22px 25px -1px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: -1px 22px 25px -1px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: -1px 22px 25px -1px rgba(0, 0, 0, 0.2);
-}
-
-.footer-contact h2 {
-    font-size: 36px;
-    font-weight: 500;
-}
-
-.footer-contact p {
-    font-weight: 500;
-}
-
-.footer-contact .highlight {
-    font-weight: 700;
-}
-
-.footer-contact .img-tree-footer {
-    grid-column: 7 / span 2;
-    display: block;
-    width: 100%;
-    height: 100%;
-    transform: translateX(0%) translateY(-33%);
-    -webkit-transform: translateX(0%) translateY(-33%);
-}
-
-.first-text {
-    grid-column: 1 / span 6;
-}
-
-.footer-contact a {
-    grid-column: 9 / -1;
-    background-color: #EFBD2E;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    justify-self: center;
-    padding: 18px 55px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.footer-contact a:hover {
-    background-color: #D9A204;
-}
-
-.footer-contact a img {
-    height: 15px;
-    width: auto;
-    padding-left: 24px;
-    margin-bottom: -1px;
-    display: inline-block;
-}
-
-.main-footer {
-    background-image: url(img/img_bg_footer.jpg);
-    background-size: cover;
-    background-position: center top;
-    padding-top: 300px;
-    padding-bottom: 150px;
-    box-shadow: inset 0 30px 50px -33px rgb(0 0 0 / 40%);
-    -webkit-box-shadow: inset 0 30px 50px -33px rgb(0 0 0 / 40%);
-}
-
-
-.inside-footer {
-    margin: 0 auto;
-    max-width: 1389px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-.inside-footer .logo img {
-    height: 62px;
-    width: auto;
-}
-
-.inside-footer .logo {
-    grid-column: 1 / span 3;
-}
-
-.footer-links {
-    grid-column: 6 / span 3;
-    display: grid;
-    justify-content: left;
-    align-items: start;
-    grid-row-gap: 24px;
-}
-
-.footer-links a {
-    color: #9CAFD3;
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-
-.footer-links a:hover {
-    text-shadow: 0px 1px 9px RGBA(0, 0, 0, 0.6);
-    color: #ffff;
-}
-
-.footer-info {
-    grid-column: 10 / -1;
-    display: grid;
-    justify-content: left;
-    align-items: start;
-    grid-row-gap: 24px;
-}
-
-.footer-info span {
-    display: grid;
-    font-weight: 500;
-    font-size: 18px;
-    color: #9CAFD3;
-    line-height: 1.8;
-}
-
-h3.footer-heading {
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    padding-bottom: 27px;
-    margin: 0;
-}
-
-.copyright {
-    background: rgb(0, 63, 117);
-    background: linear-gradient(90deg, rgba(0, 63, 117, 1) 0%, rgba(0, 4, 40, 1) 100%);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.copyright p {
-    color: #9CAFD3;
-    font-weight: 400;
-}
 
 
 
@@ -1065,9 +899,7 @@ h3.footer-heading {
     font-weight: 700 !important;
 }
 
-.contact-footer {
-    display: none;
-}
+
 
 .container-map {
     display: flex;
@@ -1266,4 +1098,22 @@ textarea::placeholder {
 
 .platform-blue {
     background: #F4F9FF;
+}
+
+.checkWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px 10px 5px 0px;
+    margin-bottom: 10px;
+}
+
+.checkWrapper input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+    margin-top: -10px;
+    margin-right: 10px;
 }
