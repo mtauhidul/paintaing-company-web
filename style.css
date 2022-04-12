@@ -1117,3 +1117,13 @@ textarea::placeholder {
     margin-top: -10px;
     margin-right: 10px;
 }
+
+.contactWrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-top: 100px;
+}
